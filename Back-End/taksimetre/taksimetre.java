@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class taksimetre {
+public class Taksimetre {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int km;
@@ -8,13 +8,13 @@ public class taksimetre {
 
         System.out.print("KM giriniz : ");
         km = input.nextInt();
-        System.out.println("KM baþýna : " + perKm + " TL");
+        System.out.println("KM baÃ¾Ã½na : " + perKm + " TL");
 
         total = km * perKm + startPrice;
         System.out.println("Hesaplanan Tutar : " + total + " TL");
 
         boolean kosul = total < 20;
         pay = kosul ? 20 : total;
-        System.out.print("Ödenecek Tutar : " + pay + " TL");
+        System.out.print("Ã–denecek Tutar : " + pay + " TL");
     }
 }
