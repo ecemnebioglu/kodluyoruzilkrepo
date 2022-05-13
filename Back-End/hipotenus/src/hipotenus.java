@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class hipotenus {
+public class Hipotenus {
     public static void main(String[] args) {
         int dik1, dik2, alan, cevre;
         double hip;
